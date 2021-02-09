@@ -396,6 +396,7 @@ var AppCtrl = (function(budgCtrl,uiCtrl){
 			splitID = itemID.split('-');
 			type = splitID[0];
 			ID = parseInt(splitID[1]);
+			console.log("hello")
 
 			//1. delete item from data structure
 			budgCtrl.delItem(type,ID);
